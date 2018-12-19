@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bloc.hpp" />
+    <ClInclude Include="Grid.hpp" />
+    <ClInclude Include="Pieces.hpp" />
+    <ClInclude Include="Structs.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bloc.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Pieces.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{33F341A9-A5D7-49A4-B186-20DF322DB1E8}</ProjectGuid>
@@ -114,8 +126,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
